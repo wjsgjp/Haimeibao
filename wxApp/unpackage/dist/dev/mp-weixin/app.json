@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chat/chat",
+    "pages/orders/orders",
+    "pages/me/me",
+    "pages/login/login",
+    "pages/message/message",
+    "pages/register/register",
+    "pages/detail/detail",
+    "pages/confirm/confirm",
+    "pages/address/address",
+    "pages/addAddr/addAddr",
+    "pages/remark/remark",
+    "pages/ordersItem/ordersItem",
+    "pages/comment/comment",
+    "pages/collect/collect",
+    "pages/commentCenter/commentCenter",
+    "pages/aboutUs/aboutUs",
+    "pages/agreement/agreement",
+    "pages/person/person",
+    "pages/search/search",
+    "pages/categoryBusiness/categoryBusiness"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "外卖点餐",
+    "navigationBarBackgroundColor": "#ffd100",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#ffd100",
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-active.png"
+      },
+      {
+        "pagePath": "pages/orders/orders",
+        "text": "订单",
+        "iconPath": "static/icon/orders.png",
+        "selectedIconPath": "static/icon/orders-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/icon/message.png",
+        "selectedIconPath": "static/icon/message.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/icon/me.png",
+        "selectedIconPath": "static/icon/me-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,10 @@
+
+.container {
+	padding: 20rpx;
+}
+.submit-btn {
+	margin-top: 40rpx;
+	background-color: #007AFF;
+	color: #FFFFFF;
+}
+

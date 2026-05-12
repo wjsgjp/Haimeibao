@@ -1,0 +1,42 @@
+
+.container {
+	padding: 20rpx;
+}
+.contact-list {
+	background-color: #FFFFFF;
+	border-radius: 10rpx;
+}
+.contact-item {
+	display: flex;
+	align-items: center;
+	padding: 20rpx;
+	border-bottom: 1px solid #EEEEEE;
+}
+.contact-item:last-child {
+	border-bottom: none;
+}
+.avatar {
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	margin-right: 20rpx;
+}
+.contact-info {
+	flex: 1;
+}
+.name {
+	font-size: 28rpx;
+	color: #333333;
+}
+.role {
+	font-size: 24rpx;
+	color: #999999;
+	margin-left: 20rpx;
+}
+.empty {
+	text-align: center;
+	padding: 100rpx 0;
+	color: #999999;
+	font-size: 28rpx;
+}
+
