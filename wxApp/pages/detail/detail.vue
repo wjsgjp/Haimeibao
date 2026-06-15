@@ -278,7 +278,11 @@
 					businessId: this.businessId
 				}).then(res => {
 					this.cartList = res.data || []
+					
 					this.options[0].info = this.cartList.length
+
+
+					// this.options[0].info = this.cartList.reduce((total, item) => total + Number(item.num || 0), 0)
 				})
 
 				this.$request.get('/cart/calc', {
