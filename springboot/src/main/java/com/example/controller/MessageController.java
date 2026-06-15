@@ -30,6 +30,7 @@ public class MessageController {
         }
     }
 
+
     /**
      * 获取聊天记录
      */
@@ -43,4 +44,5 @@ public class MessageController {
             return Result.error("500", "获取聊天记录失败：" + e.getMessage());
         }
     }
+
 } 
